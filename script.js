@@ -88,7 +88,30 @@ const projectsData = [
         image: "project6.jpg"
     }
 ];
+const certificateData = [
+    {
+        category: "CERTIFICATION",
+        title: "DEEBUG INSTITUTE",
+        description: "I completed my front-end training at DEEBUG INSTITUTE a reputable institution in Benin City, Edo State, Nigeria.",
+        image: "certificate.jpg"
+    }
+];
+const certificateGrid = document.getElementById("certificateGrid");
 
+if (certificateGrid) {
+    certificateGrid.innerHTML = certificateData.map(cert => `
+        <div class="project-card reveal">
+            <div class="project-image">
+                <img src="${cert.image}" alt="${cert.title}">
+            </div>
+            <div class="project-info">
+                <span>${cert.category}</span>
+                <h3>${cert.title}</h3>
+                <p>${cert.description}</p>
+            </div>
+        </div>
+    `).join('');
+}
 const projectsGrid = document.getElementById("projectsGrid");
 
 if (projectsGrid) {
