@@ -255,3 +255,31 @@ const skillsContainer = document.getElementById('skillsContainer');
 if (skillsContainer) {
     skillsObserver.observe(skillsContainer);
 }
+// ==================== THEME TOGGLE ====================
+const themeToggleBtn = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
+const bodyElement = document.body;
+
+// Check for saved user preference on load
+const savedTheme = localStorage.getItem('portfolio_theme');
+if (savedTheme === 'light') {
+    bodyElement.classList.add('light-mode');
+    themeIcon.classList.replace('fa-moon', 'fa-sun');
+}
+
+// Toggle theme on click
+if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+        bodyElement.classList.toggle('light-mode');
+        
+        if (bodyElement.classList.contains('light-mode')) {
+            themeIcon.classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('portfolio_theme', 'light');
+        } else {
+            themeIcon.classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('portfolio_theme', 'dark');
+        }
+    });
+}
+// (Make sure your JS is still handling the click and icon swap properly, which it is!)
+
