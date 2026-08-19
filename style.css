@@ -951,3 +951,122 @@ footer {
     border-radius: 4px;
     transition: width 1.5s cubic-bezier(0.1, 0.4, 0.2, 1);
 }
+/* ==================== LIGHT THEME OVERRIDES ==================== */
+
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Navbar in Light Mode */
+body.light-mode .navbar {
+    background: rgba(248, 249, 250, 0.85);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body.light-mode .navbar nav a {
+    color: #495057;
+}
+
+body.light-mode .navbar nav a:hover {
+    color: #6c63ff;
+}
+
+/* Secondary Buttons & Borders in Light Mode */
+body.light-mode .secondary-btn {
+    border: 1px solid #ced4da;
+    color: #212529;
+}
+
+/* Social Icons in Light Mode */
+body.light-mode .social-links a, 
+body.light-mode .footer-socials a {
+    border: 1px solid #dee2e6;
+    color: #495057;
+}
+
+/* Hero Description Text in Light Mode */
+body.light-mode .hero-description {
+    color: #6c757d;
+}
+
+/* Theme Toggle Button Styling */
+.theme-btn {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.theme-btn:hover {
+    transform: scale(1.1);
+}
+/* ==================== WARM EYE-CARE LIGHT THEME ==================== */
+
+body.light-mode {
+    background-color: #faf6ed; /* Warm yellowish-white / cream tint */
+    color: #2b261f;            /* Warm dark text for high contrast */
+}
+
+/* Navbar in Light Mode */
+body.light-mode .navbar {
+    background: rgba(250, 246, 237, 0.88);
+    border-bottom: 1px solid rgba(43, 38, 31, 0.08);
+}
+
+body.light-mode .navbar nav a {
+    color: #5c5346;
+}
+
+body.light-mode .navbar nav a:hover {
+    color: #6c63ff;
+}
+
+/* Make Hamburger Icon and Toggle Button Visible in Light Mode */
+body.light-mode .menu-btn,
+body.light-mode .theme-btn {
+    color: #2b261f !important;
+}
+
+/* Secondary Buttons & Borders in Light Mode */
+body.light-mode .secondary-btn {
+    border: 1px solid #d4c9b1;
+    color: #2b261f;
+}
+
+/* Social Icons in Light Mode */
+body.light-mode .social-links a, 
+body.light-mode .footer-socials a {
+    border: 1px solid #d4c9b1;
+    color: #5c5346;
+}
+
+/* Hero Description Text in Light Mode */
+body.light-mode .hero-description {
+    color: #6e6354;
+}
+
+/* Theme Toggle Button Styling */
+.theme-btn {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    margin-left: 10px; /* Keeps it neatly spaced next to the menu */
+}
+
+.theme-btn:hover {
+    transform: scale(1.1);
+}
