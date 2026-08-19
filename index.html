@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Divine Edosa — Creative Designer, Front-End Developer, Photographer and Digital Creator.">
+
+    <title>Divine Edosa | Creative Designer & Developer</title>
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ================= PRELOADER SCREEN ================= -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="fancy-spinner"></div>
+            <h1 class="welcome-typing" id="welcomeTyping"></h1>
+            <div class="loading-status" id="loadingStatus">PLEASE WAIT</div>
+        </div>
+    </div>
+
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            created_by_dee<span>.</span>
+        </a>
+
+        <nav id="navMenu">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <a href="#contact" class="nav-button">
+            I AM ACTIVE 
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content reveal">
+
+                <p class="eyebrow">
+                    HELLO, I'M DIVINE 👋
+                </p>
+
+                <h1>
+                    I create
+                    <span id="typing-text">digital experiences.</span>
+                </h1>
+
+                <p class="hero-description">
+
+                    I'm Divine Edosa, popularly known as created_by_dee a creative graphic designer, an AI image developer, photo and Video editor also a
+                    front-end developer who turns ideas into
+                    beautiful digital experiences.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#work" class="primary-btn">
+                        View My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Let's Work Together
+                    </a>
+
+                </div>
+
+
+                <!-- SOCIAL MEDIA -->
+
+                <div class="social-links">
+
+                    <!-- Facebook -->
+                    <a
+                        href="https://www.facebook.com/smiley.views.tech"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                    >
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+
+                    <!-- Instagram -->
+                    <a
+                        href="https://www.instagram.com/createdbydee01"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                    >
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+
+                    <!-- TikTok -->
+                    <a
+                        href="https://www.tiktok.com/@created_by_dee"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="TikTok"
+                    >
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+
+                    <!-- WhatsApp -->
+                    <a
+                        href="https://wa.me/2349018835627"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="WhatsApp"
+                    >
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= PROFILE IMAGE ================= -->
+
+            <div class="hero-image reveal">
+
+                <div class="image-glow"></div>
+
+                <div class="profile-frame">
+
+                    <img
+                        src="images/profile.jpg"
+                        alt="Divine Edosa"
+                    >
+
+                </div>
+
+                <div class="floating-card">
+                    <i class="fas fa-code"></i>
+                    <span>Creative Developer</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section reveal">
+
+            <div class="section-heading">
+
+                <p>ABOUT ME</p>
+
+                <h2>
+                    Creativity meets technology.
+                </h2>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        I'm Divine Edosa (created_by_dee), a creative designer, a computer science graduate of Ambrose Alli University Ekpoma, Edo state, Nigeria. He is a front-end developer, photographer, an AI image creator and prompt generator and
+                        content creator and many more.
+                    </p>
+
+                    <p>
+                        I enjoy combining creativity and technology
+                        to create websites, graphics, photographs
+                        and digital experiences that stand out.
+                    </p>
+
+                </div>
+
+
+                <!-- ================= SKILLS & RATINGS CARDS (REPLACED STATS) ================= -->
+
+                <div class="skills-container" id="skillsContainer">
+
+                    <!-- CARD 1: Design & Creative -->
+                    <div class="skill-category-card">
+                        <h3>Design & Creative</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Graphic Design</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Video Editing</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Photo Editing</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="88"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Content Creation</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Digital Branding</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- CARD 2: Development -->
+                    <div class="skill-category-card">
+                        <h3>Development</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Front-End Web Development</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Responsive Design</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- CARD 3: Marketing & Tools -->
+                    <div class="skill-category-card">
+                        <h3>Marketing & Tools</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Social Media Management</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="88"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Product Marketing</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Microsoft Office Suite</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Communication</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="92"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Team Collaboration</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section id="services" class="section reveal">
+
+            <div class="section-heading">
+
+                <p>WHAT I DO</p>
+
+                <h2>My Services</h2>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <span>01</span>
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Modern, responsive and interactive
+                        websites for individuals and businesses.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+
+                    <span>02</span>
+
+                    <h3>Graphic Design</h3>
+
+                    <p>
+                        Creative visual designs that communicate
+                        your brand and message.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+
+                    <span>03</span>
+
+                    <h3>Photography</h3>
+
+                    <p>
+                        Creative photography and professional
+                        image editing.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+
+                    <span>04</span>
+
+                    <h3>Video Editing</h3>
+
+                    <p>
+                        Engaging videos for creators, brands
+                        and social media.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WORK ================= -->
+
+        <section id="work" class="section reveal">
+
+            <div class="section-heading">
+
+                <p>MY WORK</p>
+
+                <h2>Selected Projects</h2>
+
+            </div>
+            
+            <div class="projects-grid" id="projectsGrid">
+                <!-- JavaScript will fill this automatically -->
+            </div> 
+            
+            <div class="projects-grid" style="display:none;">
+                <!-- Fallback hidden container -->
+            </div>
+        </section>
+
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="contact reveal">
+
+            <p>HAVE A PROJECT?</p>
+
+            <h2>
+                Let's create something
+                amazing together.
+            </h2>
+
+            <p class="contact-text">
+                Have an idea, business or project?
+                Let's talk about it.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a
+                    href="https://wa.me/2349018835627"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="primary-btn"
+                >
+                    <i class="fab fa-whatsapp"></i>
+                    Chat on WhatsApp
+                </a>
+
+
+                <a
+                    href="mailto:techdivine367@gmail.com"
+                    class="secondary-btn"
+                >
+                    <i class="fas fa-envelope"></i>
+                    Send Email
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Divine Edosa. All Rights Reserved.
+        </p>
+
+
+        <div class="footer-socials">
+
+            <a
+                href="https://www.facebook.com/smiley.views.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a
+                href="https://www.instagram.com/createdbydee01"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a
+                href="https://www.tiktok.com/@created_by_dee"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-tiktok"></i>
+            </a>
+
+            <a
+                href="https://wa.me/2349018835627"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
