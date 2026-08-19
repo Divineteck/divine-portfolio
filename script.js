@@ -55,37 +55,37 @@ const projectsData = [
         category: "WEB DESIGN",
         title: "Creative Portfolio",
         description: "A modern portfolio website built for a creative professional.",
-        image: "images/project1.jpg"
+        image: "project1.jpg"
     },
     {
         category: "BRANDING",
         title: "Brand Identity",
         description: "A complete visual identity created for a modern brand.",
-        image: "images/project2.jpg"
+        image: "project2.jpg"
     },
     {
         category: "PHOTOGRAPHY",
         title: "Creative Photography",
         description: "Professional photography and visual storytelling.",
-        image: "images/project3.jpg"
+        image: "project3.jpg"
     },
     {
         category: "AI CREATION",
         title: "AI Image Masterpieces",
         description: "Advanced AI prompt creation and visual storytelling.",
-        image: "images/project4.jpg"
+        image: "project4.jpg"
     },
     {
         category: "VIDEO EDITING",
         title: "Commercial Video Edit",
         description: "Engaging promotional video content for brands.",
-        image: "images/project5.jpg"
+        image: "project5.jpg"
     },
     {
         category: "GRAPHIC DESIGN",
         title: "Promotional Flyers",
         description: "High-conversion graphic design layouts for social platforms.",
-        image: "images/project6.jpg"
+        image: "project6.jpg"
     }
 ];
 
